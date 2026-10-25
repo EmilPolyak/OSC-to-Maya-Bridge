@@ -43,9 +43,7 @@ record the incoming data as animation.
 -   The computer and phone connected to the same local network
 -   An OSC controller/sensor application on the phone
 
-The tutorial accompanying this tool uses **Syntien 2**, a free
-OSC-capable mobile application, although other applications capable of
-transmitting OSC data can also be used.
+**Syntien 2** is one example of a free OSC-capable mobile application that can be used with OSC Bridge. Other applications capable of transmitting OSC data can also be used.
 
 > **VPN note:** An active VPN that masks or reroutes your computer's
 > local network address can prevent the phone and OSC Bridge from
@@ -129,7 +127,7 @@ Port:      9001
 ```
 
 Use the IP address shown by OSC Bridge on your own computer. Do not copy
-an IP address from a tutorial, screenshot, or another machine.
+an IP address from a screenshot, example, or another machine.
 
 Once configured, create a simple controller such as a slider and move
 it.
@@ -224,7 +222,7 @@ custom setups.
 A phone's IMU can provide real-time orientation data that can be mapped
 to object rotation in Maya.
 
-In the mobile application used in the tutorial, the relevant values are:
+In the mobile application used in this example, the relevant values are:
 
   Orientation     Value Index
   ------------- -------------
@@ -238,7 +236,7 @@ structure and select the appropriate indices.
 
 ### Radians to degrees
 
-The orientation values used in the tutorial are converted from radians
+The orientation values used in this example are converted from radians
 to degrees with a scale factor of approximately:
 
 ``` text
@@ -278,7 +276,7 @@ using a negative scale factor:
 -57.3
 ```
 
-In the tutorial setup, the phone orientation was matched experimentally
+In this example setup, the phone orientation was matched experimentally
 to Maya's X, Y, and Z rotations. Your rig, device orientation, or
 coordinate convention may require a different mapping.
 
@@ -287,7 +285,7 @@ coordinate convention may require a different mapping.
 OSC Bridge can be used as a simple real-time motion-capture input.
 
 Before recording, open Maya's time-slider preferences and use real-time
-playback settings appropriate for the scene. The tutorial uses:
+playback settings appropriate for the scene. Example settings:
 
 ``` text
 Playback:  Play Every Frame
