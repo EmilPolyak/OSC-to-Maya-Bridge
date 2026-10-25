@@ -43,7 +43,7 @@ record the incoming data as animation.
 -   The computer and phone connected to the same local network
 -   An OSC controller/sensor application on the phone
 
-The tutorial accompanying this tool uses **Cintian 2**, a free
+The tutorial accompanying this tool uses **Syntien 2**, a free
 OSC-capable mobile application, although other applications capable of
 transmitting OSC data can also be used.
 
@@ -428,12 +428,6 @@ limited to a particular preconfigured interaction.
 12. Connect dataReader attributes to Maya parameters.
 13. Optionally record and bake the resulting animation.
 ```
-
-## Tutorial
-
-The repository is accompanied by a tutorial demonstrating the complete
-workflow, including a simple slider, IMU roll/pitch/yaw mapping,
-real-time Maya control, recording, and baking the captured animation.
 
 ------------------------------------------------------------------------
 
